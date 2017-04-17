@@ -1,0 +1,27 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="1"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView android:text="Change or Delete?"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Name:"/>
+        <EditText android:id="@+id/name"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Quantity:"/>
+        <EditText android:id="@+id/quantity"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Price:"/>
+        <EditText android:id="@+id/price"/>
+    </TableRow>
+    <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:id="@+id/delete"-->
+            <!--android:text="Delete"/>-->
+    <!--</TableRow>-->
+</TableLayout>
